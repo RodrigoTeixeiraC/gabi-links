@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabi Pellegrine - Veterinária</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+     <link rel="icon" type="image/png" href="foto.png"/>
+
+    <style>
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #C1EBA0;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        .profile-pic {
+            width: 120px;
+            height: 120px;
+            background-image: url('foto.png');
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+            margin-top: 20px;
+            border: 3px solid #FFFFFF;
+        }
+
+        h1 {
+            color: #000000;
+            margin-top: 10px;
+            font-weight: 700;
+        }
+
+        p.tagline {
+            color: #000000;
+            font-weight: 400;
+            margin-bottom: 40px;
+        }
+
+        .button {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 90%; /* Default width for mobile */
+            padding: 15px;
+            margin: 10px auto;
+            border: 2px solid #B76E22;
+            background-color: transparent;
+            color: #B76E22;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s, color 0.3s;
+            font-size: 18px;
+        }
+
+        .button img {
+            margin-right: 10px; /* space between logo and text */
+            width: 24px; /* logo size */
+            height: auto;
+        }
+
+        .button:hover, .button:focus {
+            background-color: #B76E22;
+            color: #FFEF1F;
+        }
+
+        /* Media query for desktop screens */
+        @media (min-width: 992px) {
+            .button {
+                width: 45%; /* Half-size for desktop */
+            }
+        }
+
+        @media (max-width: 768px) {
+            .profile-pic {
+                width: 100px;
+                height: 100px;
+            }
+            .button {
+                width: 90%; /* Adjust if necessary for smaller screens */
+                padding: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile-pic"></div>
+    <h1>Gabi Pellegrine</h1>
+    <p class="tagline">Por uma vida mais saudavel e alegre pro seu Pet 🦜🐶🐱</p>
+    <a href="https://www.youtube.com/@Gabipellegrine" class="button"><i class="fab fa-youtube icon"></i>Youtube</a>
+    <a href="https://www.instagram.com/vet.gabipellegrine/" class="button"><i class="fab fa-instagram icon"></i>Instagram</a>
+    <a href="https://www.tiktok.com/@vet.gabipellegrine?is_from_webapp=1&sender_device=pc" class="button"><i class="fab fa-tiktok icon"></i>TikTok</a>
+</html>
